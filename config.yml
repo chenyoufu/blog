@@ -1,0 +1,8 @@
+
+baseURL: "https://dig404.com/"
+title: "My Hugo Site"
+theme: "ananke"
+params:
+  Subtitle: "!"
+  AuthorName: "Youfu"
+  GitHubUser: "chenyoufu"
