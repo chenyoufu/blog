@@ -1,8 +1,42 @@
 
 baseURL: "https://dig404.com/"
-title: "My Hugo Site"
+title: "ONE IS ALL"
 theme: "ananke"
+sectionPagesMenu: "main"
+
 params:
-  Subtitle: "!"
-  AuthorName: "Youfu"
+  AuthorName: "有福"
   GitHubUser: "chenyoufu"
+  Subtitle: "Hugo is Fast!"
+  SidebarRecentLimit: 5
+  gitment: true
+
+
+menu:
+  main:
+      - name: "文"
+        pre: "<i class='fa fa-road'></i>"
+        weight: -110
+        url: "/posts/"
+      - name: "图"
+        pre: "<i class='fa fa-road'></i>"
+        weight: -120
+        url: "/photos/"
+      - name: "书"
+        pre: "<i class='fa fa-road'></i>"
+        weight: -100
+        url: "/books/"
+      - name: "杂"
+        pre: "<i class='fa fa-road'></i>"
+        weight: -100
+        url: "/misc/"
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  series: "series"
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
