@@ -7,7 +7,6 @@ theme: "ananke"
 params:
   AuthorName: "有福"
   GitHubUser: "chenyoufu"
-  Subtitle: "平行世界，多元生活!"
   SidebarRecentLimit: 5
   gitment: true
 
