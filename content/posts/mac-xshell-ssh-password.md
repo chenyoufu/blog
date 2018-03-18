@@ -2,8 +2,9 @@
 title: "Mac下iTerm2 代替 Xshell"
 date: 2018-03-17T17:57:18+08:00
 tags: ["mac", "iTerm2", "zsh"]
+keywords: ["mac", "iTerm2", "zsh"]
 categories: [ "文" ]
-draft: true
+draft: false
 ---
 
 mac 下通过配置 iTerm2 让它具有xshell免密码登陆的功能。iTerm2 本身并没有提供这个功能，不过

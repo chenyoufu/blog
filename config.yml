@@ -1,13 +1,13 @@
 
 baseURL: "https://dig404.com/"
-title: "ONE IS ALL"
+title: "多元生活"
 theme: "ananke"
-sectionPagesMenu: "main"
+# sectionPagesMenu: "main"
 
 params:
   AuthorName: "有福"
   GitHubUser: "chenyoufu"
-  Subtitle: "Hugo is Fast!"
+  Subtitle: "平行世界，多元生活!"
   SidebarRecentLimit: 5
   gitment: true
 
