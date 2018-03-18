@@ -9,25 +9,27 @@ params:
   GitHubUser: "chenyoufu"
   SidebarRecentLimit: 5
   gitment: true
+  mainSections: ["photos"]
 
 
 menu:
   main:
-      - name: "文"
-        pre: "<i class='fa fa-road'></i>"
-        weight: -110
-        url: "/posts/"
+      
       - name: "图"
         pre: "<i class='fa fa-road'></i>"
-        weight: -120
+        weight: -150
         url: "/photos/"
       - name: "书"
         pre: "<i class='fa fa-road'></i>"
-        weight: -100
+        weight: -130
         url: "/books/"
+      - name: "文"
+        pre: "<i class='fa fa-road'></i>"
+        weight: -140
+        url: "/posts/"
       - name: "杂"
         pre: "<i class='fa fa-road'></i>"
-        weight: -100
+        weight: -120
         url: "/misc/"
 
 taxonomies:
