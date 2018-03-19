@@ -2,6 +2,8 @@
 baseURL: "https://dig404.com/"
 title: "多元生活"
 theme: "ananke"
+Paginate: 10
+enableRobotsTXT: true
 # sectionPagesMenu: "main"
 
 params:
@@ -11,6 +13,7 @@ params:
   SidebarRecentLimit: 5
   gitment: false
   mainSections: ["photos"]
+  recent_posts_number: 10
 
 menu:
   main:
@@ -41,3 +44,8 @@ sitemap:
   changefreq: "monthly"
   priority: 0.5
   filename: "sitemap.xml"
+
+imaging:
+  resampleFilter: "box"
+  quality: 100
+  anchor: "smart"
