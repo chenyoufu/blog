@@ -5,12 +5,12 @@ theme: "ananke"
 # sectionPagesMenu: "main"
 
 params:
+  style: "default"
   AuthorName: "有福"
   GitHubUser: "chenyoufu"
   SidebarRecentLimit: 5
   gitment: false
   mainSections: ["photos"]
-
 
 menu:
   main:
