@@ -8,7 +8,7 @@ params:
   AuthorName: "有福"
   GitHubUser: "chenyoufu"
   SidebarRecentLimit: 5
-  gitment: true
+  gitment: false
   mainSections: ["photos"]
 
 
