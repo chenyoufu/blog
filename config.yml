@@ -12,7 +12,7 @@ params:
   GitHubUser: "chenyoufu"
   SidebarRecentLimit: 5
   gitment: false
-  mainSections: ["photos"]
+  mainSections: ["photos", "posts", "books", "misc"]
   recent_posts_number: 10
 
 menu:
